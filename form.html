@@ -1,0 +1,56 @@
+	<!DOCTYPE html>
+<html>
+<head>
+        <title>HomeQuest Real Estate: Card form</title>
+        <link href="style_index.css" rel="stylesheet"> 
+        <link href="style_seller.css" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- Menu  -->
+        <div class="logout">
+            <a href="logout.php">Logout</a>
+        </div>
+        <div class="home">
+            <a href="index.php">Home</a>
+        </div>
+        <div class="topnav" style="width: 100%">
+            
+            <a href="#" class="active">Dashboard</a>
+             
+        </div>
+        <div class="c" style="text-align: center;background-color: #DCBF7D; color: black; width: 80%; margin-left:10% ; margin-top: 20%; padding-bottom: 15px;">
+    <h1>Create Your Card</h1>
+    <form method="post" action="insert_card.php" enctype="multipart/form-data">
+        <label for="address">Address of the Property?</label><br>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="age">How old is the Property?</label><br>
+        <input type="number" id="age" name="age"><br>
+
+        <label for="bed">Number of Beds in the Property?</label><br>
+        <input type="number" id="bed" name="bed"><br>
+
+        <label for="ad">Number of Bathrooms in the Property?</label><br>
+        <input type="number" id="ad" name="ad"><br>
+
+        <label for="garden">Is Garden available?</label><br>
+        <input type="text" id="garden" name="garden"><br>
+
+        <label for="pa">Is Parking Available?</label><br>
+        <input type="text" id="pa" name="pa"><br>
+
+        <label for="tax">Price of the Property?</label><br>
+        <input type="number" id="tax" name="tax"><br>
+
+        <label for="image">Image of the Property</label><br>
+         <input type="file" name="file"><br><br>
+
+        <input type="submit" value="Create Card">
+    </form>
+    </div>
+</body>
+</html>
+
+
